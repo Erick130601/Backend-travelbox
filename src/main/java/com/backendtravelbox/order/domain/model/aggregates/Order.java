@@ -14,6 +14,7 @@ public class Order extends AbstractAggregateRoot {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Getter
     private Long id;
+    
 
     @Getter
     private Double orderNumber;

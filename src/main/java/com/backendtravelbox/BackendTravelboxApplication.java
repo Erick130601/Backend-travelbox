@@ -15,7 +15,7 @@ public class BackendTravelboxApplication {
 		SpringApplication.run(BackendTravelboxApplication.class, args);
 	}
 	@Bean
-	public WebMvcConfigurer corsconfigurer (){
+	public WebMvcConfigurer corsconfigurer (){ 
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings (CorsRegistry registry) { 
