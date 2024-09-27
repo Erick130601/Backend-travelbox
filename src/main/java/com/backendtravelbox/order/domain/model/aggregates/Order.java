@@ -15,28 +15,34 @@ public class Order extends AbstractAggregateRoot {
     @Getter
     private Long id;
     
-
     @Getter
     private Double orderNumber;
+
 
     @Getter
     private String orderDate;
 
+
     @Getter
     private String waitingTime;
+
 
     @Getter
     private Double totalPrice;
 
+
     @Getter
     private String orderStatus;
+
 
     @Getter
     private String paymentMethod;
 
+
     @Getter
     private Double paymentAmount;
 
+    
     public Order(){
         this.orderDate = Strings.EMPTY;
         this.waitingTime = Strings.EMPTY;
